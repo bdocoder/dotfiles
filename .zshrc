@@ -128,6 +128,4 @@ for key ('j') bindkey -M vicmd ${key} history-substring-search-down
 unset key
 # }}} End configuration added by Zim install
 
-alias update-grub="grub-mkconfig -o /boot/grub/grub.cfg"
-
 eval "$(starship init zsh)"
