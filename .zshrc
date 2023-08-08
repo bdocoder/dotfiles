@@ -128,6 +128,10 @@ for key ('j') bindkey -M vicmd ${key} history-substring-search-down
 unset key
 # }}} End configuration added by Zim install
 
+function take {
+  mkdir -p $1 && cd $1
+}
+
 export PATH=~/.deno/bin:$PATH
 
 eval "$(starship init zsh)"
