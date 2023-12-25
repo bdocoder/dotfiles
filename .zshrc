@@ -138,3 +138,8 @@ function take {
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# init starship if it's installed
+if test -x "$(command -v starship)"; then
+  eval "$(starship init zsh)"
+fi
