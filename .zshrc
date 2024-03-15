@@ -132,13 +132,6 @@ function take {
   mkdir -p $1 && cd $1
 }
 
-# bun completions
-[ -s "/home/abdullah/.bun/_bun" ] && source "/home/abdullah/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
 # init starship if it's installed
 if test -x "$(command -v starship)"; then
   eval "$(starship init zsh)"
