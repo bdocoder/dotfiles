@@ -131,3 +131,5 @@ unset key
 function take {
   mkdir -p $1 && cd $1
 }
+
+export PATH=~/.local/bin:$PATH
