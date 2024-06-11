@@ -131,8 +131,3 @@ unset key
 function take {
   mkdir -p $1 && cd $1
 }
-
-# init starship if it's installed
-if test -x "$(command -v starship)"; then
-  eval "$(starship init zsh)"
-fi

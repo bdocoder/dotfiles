@@ -1,5 +1,4 @@
 dotfiles=(
-  '.config/starship.toml'
   '.gitconfig'
   '.npmrc'
   '.zshrc'
