@@ -133,3 +133,5 @@ function take {
 }
 
 export PATH=~/.local/bin:$PATH
+
+alias phpunit='phpunit10'
