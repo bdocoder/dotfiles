@@ -135,3 +135,10 @@ function take {
 export PATH=~/.local/bin:$PATH
 
 alias phpunit='phpunit10'
+
+if test -f '/home/linuxbrew/.linuxbrew/bin/brew'; then
+  eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+  set HOMEBREW_NO_INSTALL_CLEANUP
+else
+  echo "Homebrew isn't installed!"
+fi
