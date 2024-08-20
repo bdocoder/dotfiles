@@ -137,8 +137,6 @@ export PATH=~/.local/bin:$PATH
 if test -f '/home/linuxbrew/.linuxbrew/bin/brew'; then
   eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
   set HOMEBREW_NO_INSTALL_CLEANUP
-else
-  echo "Homebrew isn't installed!"
 fi
 
 if command -v starship > /dev/null; then
