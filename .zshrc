@@ -140,3 +140,7 @@ if test -f '/home/linuxbrew/.linuxbrew/bin/brew'; then
 else
   echo "Homebrew isn't installed!"
 fi
+
+if command -v starship > /dev/null; then
+  eval "$(starship init zsh)"
+fi
