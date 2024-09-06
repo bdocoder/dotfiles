@@ -3,6 +3,7 @@ dotfiles=(
   '.npmrc'
   '.zshrc'
   '.zimrc'
+  '.config/starship.toml'
 )
 
 for file in "${dotfiles[@]}"; do
