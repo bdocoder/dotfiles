@@ -142,3 +142,8 @@ fi
 if command -v starship > /dev/null; then
   eval "$(starship init zsh)"
 fi
+
+if command -v pnpm > /dev/null; then
+  alias npm='pnpm'
+  alias npx='pnpx'
+fi
