@@ -1,5 +1,4 @@
 dotfiles=(
-  '.gitconfig'
   '.npmrc'
   '.zshrc'
   '.zimrc'

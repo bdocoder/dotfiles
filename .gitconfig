@@ -1,7 +1,0 @@
-[core]
-	editor = code --wait
-[init]
-	defaultBranch = main
-[user]
-	email = bdocoder@gmail.com
-	name = Abdullah Ahmad
