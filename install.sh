@@ -1,7 +1,5 @@
 dotfiles=(
   '.npmrc'
-  '.zshrc'
-  '.zimrc'
   '.config/starship.toml'
   '.config/fish/config.fish'
   '.config/fish/functions/take.fish'
