@@ -1,6 +1,5 @@
 dotfiles=(
   '.npmrc'
-  '.config/starship.toml'
 )
 
 for file in "${dotfiles[@]}"; do
