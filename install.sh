@@ -1,8 +1,6 @@
 dotfiles=(
   '.npmrc'
   '.config/starship.toml'
-  '.config/fish/config.fish'
-  '.config/fish/functions/take.fish'
 )
 
 for file in "${dotfiles[@]}"; do
@@ -10,6 +8,3 @@ for file in "${dotfiles[@]}"; do
   mkdir -p $target_dir
   ln -sf $PWD/$file $target_dir
 done
-
-echo "setting fish as the default shell"
-chsh -s /bin/fish
