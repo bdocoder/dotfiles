@@ -139,3 +139,6 @@ function take {
   fi
   cd -- "$dir"
 }
+
+export GOPATH="$(go env GOPATH)"
+export PATH=$GOPATH/bin:$PATH
