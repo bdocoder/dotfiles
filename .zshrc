@@ -142,3 +142,5 @@ function take {
 
 export GOPATH="$(go env GOPATH)"
 export PATH=$GOPATH/bin:$PATH
+
+alias allure='pnpm dlx allure-commandline@latest'
